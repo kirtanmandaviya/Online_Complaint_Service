@@ -58,3 +58,9 @@ npm run dev
 - Use Postman or Thunder Client to test routes.
 - JWT tokens are required for protected routes.
 - Ensure MongoDB is running locally or remotely.
+
+---
+
+## Contributors
+- Kirtan Mandaviya (@kirtanmandaviya)
+- Khushi Savalia (@KhushiSavalia16)
