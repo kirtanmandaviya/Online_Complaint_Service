@@ -21,37 +21,13 @@ It includes routes and controllers for User, Admin, Supervisor, Complaint, Depar
 
 ## Features
 
-- JWT-based Authentication
-User login/signup
-Secure access to protected routes
-Role-based access: User, Supervisor, Admin
-
--Complaint Management
-Students can file complaints
-Upload proof using Multer (images, documents, etc.)
-Update, retrieve, filter complaints
-Track complaint status in real-time
-
-- Department & Role Management
-Assign departments to complaints
-Supervisor & admin specific routes
-Centralized management system
-
-- Notifications System
-Notify students/supervisors when complaint status changes
-Store and retrieve notifications
-
-- Status Logs Tracking
-Tracks every update made on a complaint
-Maintains complaint progress history
-
-- Modular Architecture
-MVC pattern with separate routes & controllers
-Clean code structure and reusable utilities
-
-- File Upload Handling
-Uses Multer middleware for handling uploaded files
-Stores proof files securely
+- JWT-based Authentication : User login/signup, Secure access to protected routes,  Role-based access: User, Supervisor, Admin
+- Complaint Management : Students can file complaints, Upload proof using Multer (images, documents, etc.), Update, retrieve, and filter complaints ,Track complaint status in real-time
+- Department & Role Management: Assign departments to complaints, Supervisor & admin-specific routes, Centralized management system
+- Notifications System : Notify students/supervisors when complaint status changes, Store and retrieve notifications
+- Status Logs Tracking : Tracks every update made on a complaint, Maintains full complaint progress history
+- Modular Architecture : MVC pattern with separate routes & controllers, Clean, scalable code structure, Reusable functions and middleware
+- File Upload Handling : Uses Multer middleware for file uploads, Stores complaint proof files securely
 
 ---
 
